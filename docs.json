@@ -1,0 +1,52 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "Mellanni Sheets",
+  "colors": {
+    "primary": "#941D35"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "group": "Products",
+        "pages": [
+          "products/bedding-lineup",
+          "products/iconic-microfiber-sheet-set",
+          "products/extra-deep-microfiber-sheet-set",
+          "products/fitted-sheets"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "guides/choose-size-fit",
+          "guides/care-and-laundry",
+          "guides/color-and-style"
+        ]
+      },
+      {
+        "group": "Ordering and support",
+        "pages": [
+          "ordering/how-to-order",
+          "support/shipping-returns-warranty",
+          "support/contact",
+          "support/faq"
+        ]
+      },
+      {
+        "group": "Trust and business",
+        "pages": [
+          "trust/certification-and-safety",
+          "business/wholesale-partnerships",
+          "sources"
+        ]
+      }
+    ]
+  }
+}
