@@ -1,52 +1,112 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "Mellanni Sheets",
+  "name": "Mellanni",
+  "description": "Customer guide for Mellanni Fine Linens — shop, care for, and get support for your bedding.",
   "colors": {
-    "primary": "#941D35"
+    "primary": "#941d35",
+    "light": "#c88c9c",
+    "dark": "#f4eaec"
+  },
+  "favicon": "https://media.brand.dev/8edcb9be-8915-488b-b07f-d97b24d68dbc.jpg",
+  "logo": {
+    "light": "https://media.brand.dev/6cdf71da-8b4c-465f-9ae4-b9c891732b99.png",
+    "dark": "https://media.brand.dev/6cdf71da-8b4c-465f-9ae4-b9c891732b99.png"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "contextual": {
+    "options": ["copy", "view", "assistant"]
   },
   "navigation": {
-    "groups": [
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Shop",
+          "icon": "shopping-bag",
+          "href": "https://mellanni.com/collections/featured-products"
+        },
+        {
+          "anchor": "Contact Us",
+          "icon": "life-buoy",
+          "href": "https://mellanni.com/pages/contact-us"
+        }
+      ]
+    },
+    "tabs": [
       {
-        "group": "Overview",
-        "pages": [
-          "index"
-        ]
-      },
-      {
-        "group": "Products",
-        "pages": [
-          "products/bedding-lineup",
-          "products/iconic-microfiber-sheet-set",
-          "products/extra-deep-microfiber-sheet-set",
-          "products/fitted-sheets"
-        ]
-      },
-      {
-        "group": "Guides",
-        "pages": [
-          "guides/choose-size-fit",
-          "guides/care-and-laundry",
-          "guides/color-and-style"
-        ]
-      },
-      {
-        "group": "Ordering and support",
-        "pages": [
-          "ordering/how-to-order",
-          "support/shipping-returns-warranty",
-          "support/contact",
-          "support/faq"
-        ]
-      },
-      {
-        "group": "Trust and business",
-        "pages": [
-          "trust/certification-and-safety",
-          "business/wholesale-partnerships",
-          "sources"
+        "tab": "Customer Guide",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "sparkles",
+            "expanded": true,
+            "pages": [
+              "introduction",
+              "our-products",
+              "sizing-guide"
+            ]
+          },
+          {
+            "group": "Ordering",
+            "icon": "package",
+            "expanded": true,
+            "pages": [
+              "ordering/how-to-order",
+              "ordering/shipping",
+              "ordering/returns-exchanges"
+            ]
+          },
+          {
+            "group": "Care & Use",
+            "icon": "washing-machine",
+            "expanded": true,
+            "pages": [
+              "care/washing-instructions",
+              "care/tips-and-tricks"
+            ]
+          },
+          {
+            "group": "Warranty & Support",
+            "icon": "shield-check",
+            "expanded": true,
+            "pages": [
+              "support/lifetime-warranty",
+              "support/faq",
+              "support/contact"
+            ]
+          },
+          {
+            "group": "Business",
+            "icon": "briefcase",
+            "expanded": true,
+            "pages": [
+              "business/wholesale",
+              "business/partnership"
+            ]
+          }
         ]
       }
     ]
+  },
+  "navbar": {
+    "links": [],
+    "primary": {
+      "type": "button",
+      "label": "Shop Now",
+      "href": "https://mellanni.com/collections/featured-products"
+    }
+  },
+  "footer": {
+    "socials": {
+      "facebook": "https://www.facebook.com/MellanniFineLinens",
+      "x": "https://twitter.com/mellannilinens",
+      "instagram": "https://www.instagram.com/mellanni_fine_linens/",
+      "youtube": "https://www.youtube.com/channel/UCKPtAI8DyutyFhvl-ho6dqw"
+    }
   }
 }
