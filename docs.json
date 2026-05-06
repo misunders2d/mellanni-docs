@@ -45,7 +45,9 @@
         "pages": [
           "trust/certification-and-safety",
           "business/wholesale-partnerships",
-          "sources"
+          "sources",
+          "sources/microfiber-faq-and-review-summary",
+          "sources/microfiber-safety-and-care"
         ]
       }
     ]
