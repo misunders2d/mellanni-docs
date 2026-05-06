@@ -39,6 +39,7 @@
               "ordering/how-to-order",
               "support/shipping-returns-warranty",
               "support/contact",
+              "support/customer-questions-and-review-themes",
               "support/faq"
             ]
           },
@@ -47,7 +48,9 @@
             "pages": [
               "trust/certification-and-safety",
               "business/wholesale-partnerships",
-              "sources"
+              "sources",
+              "sources/microfiber-faq-and-review-summary",
+              "sources/microfiber-safety-and-care"
             ]
           }
         ]
@@ -84,6 +87,7 @@
               "es/ordering/how-to-order",
               "es/support/shipping-returns-warranty",
               "es/support/contact",
+              "es/support/customer-questions-and-review-themes",
               "es/support/faq"
             ]
           },
@@ -92,7 +96,9 @@
             "pages": [
               "es/trust/certification-and-safety",
               "es/business/wholesale-partnerships",
-              "es/sources"
+              "es/sources",
+              "es/sources/microfiber-faq-and-review-summary",
+              "es/sources/microfiber-safety-and-care"
             ]
           }
         ]
@@ -129,6 +135,7 @@
               "fr-CA/ordering/how-to-order",
               "fr-CA/support/shipping-returns-warranty",
               "fr-CA/support/contact",
+              "fr-CA/support/customer-questions-and-review-themes",
               "fr-CA/support/faq"
             ]
           },
@@ -137,34 +144,11 @@
             "pages": [
               "fr-CA/trust/certification-and-safety",
               "fr-CA/business/wholesale-partnerships",
-              "fr-CA/sources"
+              "fr-CA/sources",
+              "fr-CA/sources/microfiber-faq-and-review-summary",
+              "fr-CA/sources/microfiber-safety-and-care"
             ]
           }
-        "group": "Guides",
-        "pages": [
-          "guides/choose-size-fit",
-          "guides/care-and-laundry",
-          "guides/color-and-style"
-        ]
-      },
-      {
-        "group": "Ordering and support",
-        "pages": [
-          "ordering/how-to-order",
-          "support/shipping-returns-warranty",
-          "support/contact",
-          "support/customer-questions-and-review-themes",
-          "support/faq"
-        ]
-      },
-      {
-        "group": "Trust and business",
-        "pages": [
-          "trust/certification-and-safety",
-          "business/wholesale-partnerships",
-          "sources",
-          "sources/microfiber-faq-and-review-summary",
-          "sources/microfiber-safety-and-care"
         ]
       }
     ]
