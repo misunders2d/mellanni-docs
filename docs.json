@@ -5,33 +5,22 @@
   "colors": {
     "primary": "#941D35"
   },
-  "topbarLinks": [
-    {
-      "type": "locale"
-    },
-    {
-      "name": "Contact Support",
-      "url": "mailto:support@mellanni.com"
-    }
-  ],
-  "localization": {
-    "locales": [
+  "navigation": {
+    "languages": [
       {
-        "locale": "en",
-        "name": "English"
+        "language": "en",
+        "name": "English",
+        "default": true
       },
       {
-        "locale": "es",
+        "language": "es",
         "name": "Español"
       },
       {
-        "locale": "fr-CA",
+        "language": "fr-CA",
         "name": "Français (Canada)"
       }
     ],
-    "autoTranslate": true
-  },
-  "navigation": {
     "groups": [
       {
         "group": "Overview",
