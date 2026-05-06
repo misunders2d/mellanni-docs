@@ -5,6 +5,15 @@
   "colors": {
     "primary": "#941D35"
   },
+  "topbarLinks": [
+    {
+      "type": "locale"
+    },
+    {
+      "name": "Contact Support",
+      "url": "mailto:support@mellanni.com"
+    }
+  ],
   "localization": {
     "locales": [
       {
