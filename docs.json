@@ -5,6 +5,23 @@
   "colors": {
     "primary": "#941D35"
   },
+  "localization": {
+    "locales": [
+      {
+        "locale": "en",
+        "name": "English"
+      },
+      {
+        "locale": "es",
+        "name": "Español"
+      },
+      {
+        "locale": "fr-CA",
+        "name": "Français (Canada)"
+      }
+    ],
+    "autoTranslate": true
+  },
   "navigation": {
     "groups": [
       {
