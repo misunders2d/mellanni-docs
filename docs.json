@@ -6,45 +6,140 @@
     "primary": "#941D35"
   },
   "navigation": {
-    "groups": [
+    "languages": [
       {
-        "group": "Overview",
-        "pages": [
-          "index"
+        "language": "en",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "Products",
+            "pages": [
+              "products/bedding-lineup",
+              "products/iconic-microfiber-sheet-set",
+              "products/extra-deep-microfiber-sheet-set",
+              "products/fitted-sheets"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/choose-size-fit",
+              "guides/care-and-laundry",
+              "guides/color-and-style"
+            ]
+          },
+          {
+            "group": "Ordering and support",
+            "pages": [
+              "ordering/how-to-order",
+              "support/shipping-returns-warranty",
+              "support/contact",
+              "support/faq"
+            ]
+          },
+          {
+            "group": "Trust and business",
+            "pages": [
+              "trust/certification-and-safety",
+              "business/wholesale-partnerships",
+              "sources"
+            ]
+          }
         ]
       },
       {
-        "group": "Products",
-        "pages": [
-          "products/bedding-lineup",
-          "products/iconic-microfiber-sheet-set",
-          "products/extra-deep-microfiber-sheet-set",
-          "products/fitted-sheets"
+        "language": "es",
+        "groups": [
+          {
+            "group": "Descripción general",
+            "pages": [
+              "es/index"
+            ]
+          },
+          {
+            "group": "Productos",
+            "pages": [
+              "es/products/bedding-lineup",
+              "es/products/iconic-microfiber-sheet-set",
+              "es/products/extra-deep-microfiber-sheet-set",
+              "es/products/fitted-sheets"
+            ]
+          },
+          {
+            "group": "Guías",
+            "pages": [
+              "es/guides/choose-size-fit",
+              "es/guides/care-and-laundry",
+              "es/guides/color-and-style"
+            ]
+          },
+          {
+            "group": "Pedidos y soporte",
+            "pages": [
+              "es/ordering/how-to-order",
+              "es/support/shipping-returns-warranty",
+              "es/support/contact",
+              "es/support/faq"
+            ]
+          },
+          {
+            "group": "Confianza y negocios",
+            "pages": [
+              "es/trust/certification-and-safety",
+              "es/business/wholesale-partnerships",
+              "es/sources"
+            ]
+          }
         ]
       },
       {
-        "group": "Guides",
-        "pages": [
-          "guides/choose-size-fit",
-          "guides/care-and-laundry",
-          "guides/color-and-style"
-        ]
-      },
-      {
-        "group": "Ordering and support",
-        "pages": [
-          "ordering/how-to-order",
-          "support/shipping-returns-warranty",
-          "support/contact",
-          "support/faq"
-        ]
-      },
-      {
-        "group": "Trust and business",
-        "pages": [
-          "trust/certification-and-safety",
-          "business/wholesale-partnerships",
-          "sources"
+        "language": "fr-CA",
+        "groups": [
+          {
+            "group": "Aperçu",
+            "pages": [
+              "fr-CA/index"
+            ]
+          },
+          {
+            "group": "Produits",
+            "pages": [
+              "fr-CA/products/bedding-lineup",
+              "fr-CA/products/iconic-microfiber-sheet-set",
+              "fr-CA/products/extra-deep-microfiber-sheet-set",
+              "fr-CA/products/fitted-sheets"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "fr-CA/guides/choose-size-fit",
+              "fr-CA/guides/care-and-laundry",
+              "fr-CA/guides/color-and-style"
+            ]
+          },
+          {
+            "group": "Commandes et soutien",
+            "pages": [
+              "fr-CA/ordering/how-to-order",
+              "fr-CA/support/shipping-returns-warranty",
+              "fr-CA/support/contact",
+              "fr-CA/support/faq"
+            ]
+          },
+          {
+            "group": "Confiance et affaires",
+            "pages": [
+              "fr-CA/trust/certification-and-safety",
+              "fr-CA/business/wholesale-partnerships",
+              "fr-CA/sources"
+            ]
+          }
         ]
       }
     ]
