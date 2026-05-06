@@ -140,6 +140,31 @@
               "fr-CA/sources"
             ]
           }
+        "group": "Guides",
+        "pages": [
+          "guides/choose-size-fit",
+          "guides/care-and-laundry",
+          "guides/color-and-style"
+        ]
+      },
+      {
+        "group": "Ordering and support",
+        "pages": [
+          "ordering/how-to-order",
+          "support/shipping-returns-warranty",
+          "support/contact",
+          "support/customer-questions-and-review-themes",
+          "support/faq"
+        ]
+      },
+      {
+        "group": "Trust and business",
+        "pages": [
+          "trust/certification-and-safety",
+          "business/wholesale-partnerships",
+          "sources",
+          "sources/microfiber-faq-and-review-summary",
+          "sources/microfiber-safety-and-care"
         ]
       }
     ]
