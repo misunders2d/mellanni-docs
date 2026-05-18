@@ -8,10 +8,10 @@
     "light": "#c88c9c",
     "dark": "#f4eaec"
   },
-  "favicon": "https://media.brand.dev/8edcb9be-8915-488b-b07f-d97b24d68dbc.jpg",
+  "favicon": "/favicon.ico",
   "logo": {
-    "light": "https://media.brand.dev/6cdf71da-8b4c-465f-9ae4-b9c891732b99.png",
-    "dark": "https://media.brand.dev/6cdf71da-8b4c-465f-9ae4-b9c891732b99.png"
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
   "icons": {
     "library": "lucide"
@@ -120,13 +120,19 @@
         "language": "es",
         "groups": [
           {
-            "group": "Descripción general",
+            "group": "Primeros pasos",
+            "icon": "sparkles",
+            "expanded": true,
             "pages": [
-              "es/index"
+              "es/introduction",
+              "es/our-products",
+              "es/sizing-guide"
             ]
           },
           {
             "group": "Productos",
+            "icon": "layers",
+            "expanded": true,
             "pages": [
               "es/products/bedding-lineup",
               "es/products/iconic-microfiber-sheet-set",
@@ -136,29 +142,53 @@
           },
           {
             "group": "Guías",
+            "icon": "book-open",
+            "expanded": true,
             "pages": [
               "es/guides/choose-size-fit",
-              "es/guides/care-and-laundry",
-              "es/guides/color-and-style"
+              "es/guides/color-and-style",
+              "es/care/washing-instructions",
+              "es/care/tips-and-tricks",
+              "es/sources/microfiber-faq-and-review-summary"
             ]
           },
           {
-            "group": "Pedidos y soporte",
+            "group": "Pedidos",
+            "icon": "package",
+            "expanded": true,
             "pages": [
               "es/ordering/how-to-order",
-              "es/support/shipping-returns-warranty",
-              "es/support/contact",
-              "es/support/customer-questions-and-review-themes",
-              "es/support/faq"
+              "es/ordering/shipping",
+              "es/ordering/returns-exchanges"
             ]
           },
           {
-            "group": "Confianza y negocios",
+            "group": "Garantía y soporte",
+            "icon": "shield-check",
+            "expanded": true,
+            "pages": [
+              "es/support/lifetime-warranty",
+              "es/support/faq",
+              "es/support/contact",
+              "es/support/customer-questions-and-review-themes"
+            ]
+          },
+          {
+            "group": "Negocios",
+            "icon": "briefcase",
+            "expanded": true,
+            "pages": [
+              "es/business/wholesale",
+              "es/business/partnership"
+            ]
+          },
+          {
+            "group": "Confianza y fuentes",
+            "icon": "shield",
+            "expanded": true,
             "pages": [
               "es/trust/certification-and-safety",
-              "es/business/wholesale-partnerships",
               "es/sources",
-              "es/sources/microfiber-faq-and-review-summary",
               "es/sources/microfiber-safety-and-care"
             ]
           }
@@ -168,13 +198,19 @@
         "language": "fr-CA",
         "groups": [
           {
-            "group": "Aperçu",
+            "group": "Premiers pas",
+            "icon": "sparkles",
+            "expanded": true,
             "pages": [
-              "fr-CA/index"
+              "fr-CA/introduction",
+              "fr-CA/our-products",
+              "fr-CA/sizing-guide"
             ]
           },
           {
             "group": "Produits",
+            "icon": "layers",
+            "expanded": true,
             "pages": [
               "fr-CA/products/bedding-lineup",
               "fr-CA/products/iconic-microfiber-sheet-set",
@@ -184,29 +220,53 @@
           },
           {
             "group": "Guides",
+            "icon": "book-open",
+            "expanded": true,
             "pages": [
               "fr-CA/guides/choose-size-fit",
-              "fr-CA/guides/care-and-laundry",
-              "fr-CA/guides/color-and-style"
+              "fr-CA/guides/color-and-style",
+              "fr-CA/care/washing-instructions",
+              "fr-CA/care/tips-and-tricks",
+              "fr-CA/sources/microfiber-faq-and-review-summary"
             ]
           },
           {
-            "group": "Commandes et soutien",
+            "group": "Commandes",
+            "icon": "package",
+            "expanded": true,
             "pages": [
               "fr-CA/ordering/how-to-order",
-              "fr-CA/support/shipping-returns-warranty",
-              "fr-CA/support/contact",
-              "fr-CA/support/customer-questions-and-review-themes",
-              "fr-CA/support/faq"
+              "fr-CA/ordering/shipping",
+              "fr-CA/ordering/returns-exchanges"
             ]
           },
           {
-            "group": "Confiance et affaires",
+            "group": "Garantie et soutien",
+            "icon": "shield-check",
+            "expanded": true,
+            "pages": [
+              "fr-CA/support/lifetime-warranty",
+              "fr-CA/support/faq",
+              "fr-CA/support/contact",
+              "fr-CA/support/customer-questions-and-review-themes"
+            ]
+          },
+          {
+            "group": "Affaires",
+            "icon": "briefcase",
+            "expanded": true,
+            "pages": [
+              "fr-CA/business/wholesale",
+              "fr-CA/business/partnership"
+            ]
+          },
+          {
+            "group": "Confiance et sources",
+            "icon": "shield",
+            "expanded": true,
             "pages": [
               "fr-CA/trust/certification-and-safety",
-              "fr-CA/business/wholesale-partnerships",
               "fr-CA/sources",
-              "fr-CA/sources/microfiber-faq-and-review-summary",
               "fr-CA/sources/microfiber-safety-and-care"
             ]
           }
